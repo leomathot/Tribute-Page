@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #d4e5e8;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+  }
+  
+  h1  {
+    color: #345568;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: -20;
+  }
+  
+  h1, div[id="img-caption"] {
+    text-align: center;
+  }
+  
+  /* This is a container for the image */
+  .image-back {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+  }
+  
+  div[id="img-caption"]  {
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  div[id="tribute-info"], div[id="tribute-link-div"] {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #345568;
+  }
+  
+  a:hover {
+    background-color: #e4f5f8;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  
+  .bar-1, .bar-2 {
+    height: 4px;
+    background-color: #345568;
+    border: 0;
+  }
+  
+  .bar-1 {
+    margin: 20px 0 30px 0;
+  }
+  
+  .bar-2 {
+    margin: 30px 0 0 0;
+  }
